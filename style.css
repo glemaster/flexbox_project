@@ -1,0 +1,145 @@
+/* Header */
+
+  .header {
+    display: flex; 
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 8px; 
+  }
+
+  .logo {
+      font-size: 20px; 
+      font-weight: 900; 
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px; 
+    font-weight: 900; 
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+    gap: 10px; 
+  }
+
+  /* Section 1 */
+
+  .sub-header1 {
+    font-size: 20px; 
+    font-weight: 900; 
+  }
+
+  .section1 {
+      background-color: lightblue;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      padding: 10px; 
+      color: white;
+      display: flex; 
+      justify-content: center;
+      gap: 50px; 
+  }
+
+  .button1 {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    /*border: 1px solid royalblue;*/
+    color: white;
+    width: 50px;
+  }
+
+  .image-placeholder {
+    text-align: center;
+    background-color: white;
+    padding: 50px; 
+    background-color: lightgrey;
+  }
+
+  /* Section 2 */
+
+  .sub-header2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 50px;  
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 20px;
+  }
+
+  .box {
+    border-radius: 25px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid royalblue;
+    color: blue;
+    width: 100px;
+    height: 100px; 
+}
+  .info {
+    max-width: 200px;
+    text-align: center;
+  }
+
+  /* Section 3 */
+  .quote-text {
+    font-style: italic;
+    text-align: center;
+  }
+
+  .quote-author{
+    font-weight: bold;     
+    text-align: center;
+}
+
+.section3 {
+    padding: 50px 50px; 
+    background-color: lightgrey;
+}
+  /* Section 4 */
+
+  .section4 {
+    color: black; 
+    padding: 5px;
+    display: flex; 
+    justify-content: center;
+    gap: 50px; 
+    background-color: grey;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 50px; 
+
+  }
+
+  .button2 {
+    display: flex;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid blue;
+    color: blue;
+    justify-content: flex-end;
+  }
+
+  /* Footer */
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;;
+    justify-content: center;
+    background: #eee;
+  }
